@@ -43,15 +43,15 @@
       <br>
       <label for id="plan">Choose your plan</label>
       <select name="plan" id="plan" >
-        <option value="free">Free plan</option>
-        <option value="first">First level 10€ plan</option>
-        <option value="second">Second level 20€ plan</option>
-        <option value="third">Third level 30€ plan</option>
-        <option>
-          <label for id="plans">Pro plan</label>
-          <input type="checkbox" name="plans" id="plans" required>
-        </option>
+        <option value="0">Free plan</option>
+        <optgroup label="Payment">
+        <option value="10">First level 10€ plan</option>
+        <option value="20">Second level 20€ plan</option>
+        <option value="30">Third level 30€ plan</option>
+        </optgroup>
       </select>
+          <label for id="plans">Pro plan</label>
+          <input type="checkbox" name="proplan" id="plans" required>
       <br>
       <br>
       <label for id="card_number">Credit card number</label>
