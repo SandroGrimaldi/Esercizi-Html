@@ -25,7 +25,7 @@
         <li><a href="https://Navbar.html/home">Home</a></li>
         <li><a href="https://Navbar.html/link">Link</a></li>
         <li><a href="#">Dropdown</a>
-          <ul class="dropdown">
+          <ul class="dropdown" tabindex="0">
         
             <li><a href="https://Navbar.html/dropdown1">Dropdown1</a></li>
             <li><a href="https://Navbar.html/dropdown2">Dropdown2</a></li>
@@ -33,13 +33,13 @@
         
           </ul>
         </li>
-        <li><button id="disabled_button" disabled>Disabled</button></li>
+        <li><button type="button" id="disabled_button" disabled>Disabled</button></li>
       </ul>
       <br>
       <br>
       <form method="post">
         <input type="search" id="search" placeholder="Search..">
-        <button for="search" >Search</button>
+        <button for="search" type="submit" >Search</button>
       </form>
     </nav>
   </body>
